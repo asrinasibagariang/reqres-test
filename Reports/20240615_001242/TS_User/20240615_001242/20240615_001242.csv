@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_User,,,,15-06-2024 00:12:50,15-06-2024 00:13:05,14.607s,PASSED
+,,,,,,,
+Test Cases/TC_Get_List_Users,,,,15-06-2024 00:12:50,15-06-2024 00:12:59,8.901s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Get List Users""))",,,,15-06-2024 00:12:51,15-06-2024 00:12:59,8.342s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 00:12:59,15-06-2024 00:12:59,0.033s,PASSED
+,,,,,,,
+Test Cases/TC_Get_Single_User,,,,15-06-2024 00:12:59,15-06-2024 00:13:00,0.352s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Get Single User""))",,,,15-06-2024 00:12:59,15-06-2024 00:13:00,0.113s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 00:13:00,15-06-2024 00:13:00,0.008s,PASSED
+,,,,,,,
+Test Cases/TC_Register_User,,,,15-06-2024 00:13:00,15-06-2024 00:13:01,1.098s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Register User""))",,,,15-06-2024 00:13:00,15-06-2024 00:13:01,0.939s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 00:13:01,15-06-2024 00:13:01,0.007s,PASSED
+,,,,,,,
+Test Cases/TC_Update_User,,,,15-06-2024 00:13:01,15-06-2024 00:13:05,3.917s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Update User""))",,,,15-06-2024 00:13:01,15-06-2024 00:13:05,3.728s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 00:13:05,15-06-2024 00:13:05,0.010s,PASSED

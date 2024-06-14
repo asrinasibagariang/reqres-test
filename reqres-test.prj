@@ -4,8 +4,12 @@
    <name>reqres-test</name>
    <tag></tag>
    <UUID>14addf3a-31e9-4e78-a474-abd28fd5db9b</UUID>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\bagus\git\reqres-test\reqres-test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
