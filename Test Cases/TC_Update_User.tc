@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Get_List_Users</name>
+   <name>TC_Update_User</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>15039755-73ef-44d9-8b8f-08dc347d1d6d</testCaseGuid>
+   <testCaseGuid>44c9322c-4c69-4ad2-89ae-2eebf148c1fc</testCaseGuid>
 </TestCaseEntity>
