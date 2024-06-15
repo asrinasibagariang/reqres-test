@@ -21,3 +21,9 @@ ResponseUsers = WS.sendRequest(findTestObject('Get Single User'))
 
 WS.verifyResponseStatusCode(ResponseUsers, 200)
 
+WS.verifyElementPropertyValue(ResponseUsers, 'data.email', 'janet.weaver@reqres.in')
+
+WS.verifyElementPropertyValue(ResponseUsers, 'data.first_name', 'Janet')
+
+WS.verifyElementPropertyValue(ResponseUsers, 'data.last_name', 'Weaver')
+

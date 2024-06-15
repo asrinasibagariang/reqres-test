@@ -5,13 +5,14 @@
    <tag></tag>
    <elementGuidId>1ba52c1c-e288-4070-b4b1-8be750771b41</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n\t\&quot;name\&quot; : \&quot;${name}\&quot;,\n  \t\&quot;password\&quot; : \&quot;{password}\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n\t\&quot;name\&quot; : \&quot;${name}\&quot;,\n  \t\&quot;password\&quot; : \&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -27,6 +28,7 @@
    <katalonVersion>8.6.9</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
+   <path></path>
    <restRequestMethod>PUT</restRequestMethod>
    <restUrl>${baseURL}/users/${id}</restUrl>
    <serviceType>RESTful</serviceType>

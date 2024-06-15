@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_User,,,,15-06-2024 09:01:49,15-06-2024 09:01:54,4.822s,PASSED
+,,,,,,,
+Test Cases/TC_Get_List_Users,,,,15-06-2024 09:01:49,15-06-2024 09:01:52,2.851s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Get List Users""))",,,,15-06-2024 09:01:49,15-06-2024 09:01:52,2.459s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.018s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""page"", 1)",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.097s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data[0].email"", ""george.bluth@reqres.in"")",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.037s,PASSED
+,,,,,,,
+Test Cases/TC_Get_Single_User,,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.229s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Get Single User""))",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.062s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.004s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data.email"", ""janet.weaver@reqres.in"")",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.030s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data.first_name"", ""Janet"")",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.026s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""data.last_name"", ""Weaver"")",,,,15-06-2024 09:01:52,15-06-2024 09:01:52,0.026s,PASSED
+,,,,,,,
+Test Cases/TC_Register_User,,,,15-06-2024 09:01:52,15-06-2024 09:01:53,0.796s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Register User""))",,,,15-06-2024 09:01:52,15-06-2024 09:01:53,0.681s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 09:01:53,15-06-2024 09:01:53,0.003s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""id"", 2)",,,,15-06-2024 09:01:53,15-06-2024 09:01:53,0.023s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""token"", ""QpwL5tke4Pnpja7X2"")",,,,15-06-2024 09:01:53,15-06-2024 09:01:53,0.028s,PASSED
+,,,,,,,
+Test Cases/TC_Update_User,,,,15-06-2024 09:01:53,15-06-2024 09:01:54,0.773s,PASSED
+"ResponseUsers = sendRequest(findTestObject(""Update User""))",,,,15-06-2024 09:01:53,15-06-2024 09:01:54,0.664s,PASSED
+"verifyResponseStatusCode(ResponseUsers, 200)",,,,15-06-2024 09:01:54,15-06-2024 09:01:54,0.002s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""name"", ""morpheus"")",,,,15-06-2024 09:01:54,15-06-2024 09:01:54,0.022s,PASSED
+"verifyElementPropertyValue(ResponseUsers, ""password"", ""testing"")",,,,15-06-2024 09:01:54,15-06-2024 09:01:54,0.023s,PASSED

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_User" time="4.822" tests="4" failures="0" errors="0">
+   <testsuite name="TS_User" tests="4" failures="0" errors="0" time="4.822" skipped="0" timestamp="15-06-2024T09:01:49" hostname="bagus - LAPTOP" id="Test Suites/TS_User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\bagus\\git\\reqres-test\\Reports\\20240615_090146\\TS_User\\20240615_090146"/>
+         <property name="logFiles" value="C:\\Users\\bagus\\git\\reqres-test\\Reports\\20240615_090146\\TS_User\\20240615_090146\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bagus - LAPTOP"/>
+         <property name="hostAddress" value="192.168.0.77"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/TC_Get_List_Users" time="2.851" classname="Test Cases/TC_Get_List_Users" status="PASSED">
+         <system-out><![CDATA[15-06-2024T09:01:49 - [TEST_CASE][PASSED] - Test Cases/TC_Get_List_Users: Test Cases/TC_Get_List_Users
+
+15-06-2024T09:01:49 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("Get List Users")): Send request successfully
+
+15-06-2024T09:01:52 - [MESSAGE][INFO] - HAR: C:\Users\bagus\git\reqres-test\Reports\20240615_090146\TS_User\20240615_090146\requests\main\0.har
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "page", 1): Verify element property value successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data[0].email", "george.bluth@reqres.in"): Verify element property value successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Get_Single_User" time="0.229" classname="Test Cases/TC_Get_Single_User" status="PASSED">
+         <system-out><![CDATA[15-06-2024T09:01:52 - [TEST_CASE][PASSED] - Test Cases/TC_Get_Single_User: Test Cases/TC_Get_Single_User
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("Get Single User")): Send request successfully
+
+15-06-2024T09:01:52 - [MESSAGE][INFO] - HAR: C:\Users\bagus\git\reqres-test\Reports\20240615_090146\TS_User\20240615_090146\requests\main\1.har
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data.email", "janet.weaver@reqres.in"): Verify element property value successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data.first_name", "Janet"): Verify element property value successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify element property value successfully
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "data.last_name", "Weaver"): Verify element property value successfully
+
+15-06-2024T09:01:52 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Register_User" time="0.796" classname="Test Cases/TC_Register_User" status="PASSED">
+         <system-out><![CDATA[15-06-2024T09:01:52 - [TEST_CASE][PASSED] - Test Cases/TC_Register_User: Test Cases/TC_Register_User
+
+15-06-2024T09:01:52 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("Register User")): Send request successfully
+
+15-06-2024T09:01:53 - [MESSAGE][INFO] - HAR: C:\Users\bagus\git\reqres-test\Reports\20240615_090146\TS_User\20240615_090146\requests\main\2.har
+
+15-06-2024T09:01:53 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2024T09:01:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+15-06-2024T09:01:53 - [MESSAGE][PASSED] - Verify response status code successfully
+
+15-06-2024T09:01:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "id", 2): Verify element property value successfully
+
+15-06-2024T09:01:53 - [MESSAGE][PASSED] - Verify element property value successfully
+
+15-06-2024T09:01:53 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "token", "QpwL5tke4Pnpja7X2"): Verify element property value successfully
+
+15-06-2024T09:01:53 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Update_User" time="0.773" classname="Test Cases/TC_Update_User" status="PASSED">
+         <system-out><![CDATA[15-06-2024T09:01:53 - [TEST_CASE][PASSED] - Test Cases/TC_Update_User: Test Cases/TC_Update_User
+
+15-06-2024T09:01:53 - [TEST_STEP][PASSED] - ResponseUsers = sendRequest(findTestObject("Update User")): Send request successfully
+
+15-06-2024T09:01:54 - [MESSAGE][INFO] - HAR: C:\Users\bagus\git\reqres-test\Reports\20240615_090146\TS_User\20240615_090146\requests\main\3.har
+
+15-06-2024T09:01:54 - [MESSAGE][PASSED] - Send request successfully
+
+15-06-2024T09:01:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(ResponseUsers, 200): Verify response status code successfully
+
+15-06-2024T09:01:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+15-06-2024T09:01:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "name", "morpheus"): Verify element property value successfully
+
+15-06-2024T09:01:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+15-06-2024T09:01:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue(ResponseUsers, "password", "testing"): Verify element property value successfully
+
+15-06-2024T09:01:54 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-06-2024T09:01:49 - [TEST_SUITE][PASSED] - TS_User: Test Cases/TC_Update_User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

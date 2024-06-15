@@ -21,3 +21,7 @@ ResponseUsers = WS.sendRequest(findTestObject('Update User'))
 
 WS.verifyResponseStatusCode(ResponseUsers, 200)
 
+WS.verifyElementPropertyValue(ResponseUsers, 'name', 'morpheus')
+
+WS.verifyElementPropertyValue(ResponseUsers, 'password', 'testing')
+

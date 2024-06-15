@@ -21,3 +21,7 @@ ResponseUsers = WS.sendRequest(findTestObject('Get List Users'))
 
 WS.verifyResponseStatusCode(ResponseUsers, 200)
 
+WS.verifyElementPropertyValue(ResponseUsers, 'page', 1)
+
+WS.verifyElementPropertyValue(ResponseUsers, 'data[0].email', 'george.bluth@reqres.in')
+

@@ -21,3 +21,7 @@ ResponseUsers = WS.sendRequest(findTestObject('Register User'))
 
 WS.verifyResponseStatusCode(ResponseUsers, 200)
 
+WS.verifyElementPropertyValue(ResponseUsers, 'id', 2)
+
+WS.verifyElementPropertyValue(ResponseUsers, 'token', 'QpwL5tke4Pnpja7X2')
+
